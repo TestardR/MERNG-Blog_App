@@ -6,7 +6,6 @@ const { MONGODB } = require("./config");
 const Post = require('./models/Post');
 
 
-
 // GraphQL types
 const typeDefs = gql`
   type Query {
